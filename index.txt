@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rizki Sadig</title>
+    <style>
+      .meet {
+        position: absolute;
+        z-index: -99999;
+      }
+      .meet img {
+        position: absolute;
+        z-index: -999999999999999;
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="meet">
+      <img src="https://rmol.id/images/berita/normal/2022/04/92027_07362817042022_rizki_sadig.jpg" alt="Rizki Sadig" />
+      <img src="https://1.bp.blogspot.com/-T5mk1coNBS4/YGckpZEMhuI/AAAAAAAADKM/qKmLQaB51gsHxSFOHIMj0_RpUGJTZlInQCLcBGAsYHQ/s2048/DSC01354.JPG" alt="Rizki Sadig" />
+      <img src="https://cdn-2.tstatic.net/surabaya/foto/bank/images/ketua-dpw-pan-jawa-timur-ahmad-rizki-sadig-saat-memompa-semangat-kader.jpg" alt="Rizki Sadig" />
+      <img src="https://kataindonesia.com/wp-content/uploads/2021/08/Screenshot_20210824-180213_Word-750x512.jpg" alt="Rizki Sadig" />
+      <img src="https://cdn-2.tstatic.net/suryamalang/foto/bank/images/ketua-dpw-pan-jatim-a-rizki-sadig.jpg" alt="Rizki Sadig" />
+      <img src="https://amanat.news/wp-content/uploads/2022/06/IMG_20220610_184224.jpg" alt="Rizki Sadig" />
+      <img src="https://foto.wartaekonomi.co.id/files/arsip_foto_2021_08_28/kementerian_komunikasi_dan_informatika_123347_small.jpg" alt="Rizki Sadig" />
+      <img src="https://lintasjatim.com/wp-content/uploads/2021/12/IMG-20211210-WA0006.jpg" alt="Rizki Sadig" />
+      <img src="https://pbs.twimg.com/profile_images/727658699683078144/IbRoyLZB_400x400.jpg" alt="Rizki Sadig" />
+    </div>
+  </body>
+</html>
+<!DOCTYPE html>
+<html class="full">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+  <meta name="apple-mobile-web-app-capable" content="no">
+  <title> Ivelin Mitev | UI, UX, Product Designer and Front-end Developer</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/app.css">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-66654794-1', 'auto');
+  ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M57SHV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M57SHV');</script>
+<!-- End Google Tag Manager -->
+  <div ng-app="myApp" ng-controller="PageController">
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle  collapsed fa fa-bars" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          </button>
+          <a class="navbar-brand animated slideInLeft wow" data-wow-duration="1s" href="/home">Ivelin Mitev.</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse animated slideInRight wow" data-wow-duration="1s">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/home">Home</a></li>
+            <li><a href="/about">Read Bio</a></li>
+            <!--<li><a href="/portfolio">Work</a></li>-->
+            <li><a href="/contacts">Contact me</a></li>
+            <button class="button button-mat btn-1" onclick="window.location.href='./images/Ivelin-Mitev-CV-EN.pdf'"> <div class="psuedo-text"> Download CV</div> </button>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container" ng-view>
+      
+    </div>
+  </div>
+      <script type="text/javascript" src="lib/jquery.js"></script>
+      <script type="text/javascript" src="lib/angular.js"></script>
+      <script type="text/javascript" src="lib/bootstrap.min.js"></script>
+      <script type="text/javascript" src="lib/angular-resource.js"></script>
+      <script type="text/javascript" src="lib/angular-route.js"></script>
+      <script type="text/javascript" src="lib/angular-animate.js"></script>
+      <script type="text/javascript" src="js/wow.js"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <script type="text/javascript" src="js/controllers/PageController.js"></script>
+      <script type="text/javascript" src="js/controllers/HomeController.js"></script>
+      <script type="text/javascript" src="js/controllers/AboutController.js"></script>
+      <script type="text/javascript" src="js/controllers/ServicesController.js"></script>
+      <script type="text/javascript" src="js/controllers/ContactsController.js"></script>
+      <script src="http://angular-ui.github.com/bootstrap/ui-bootstrap-tpls-0.2.0.js"></script>
+      <script type="text/javascript">
+      $(document).ready(function(){
+        $("ul li").on("click",function(){
+          if($(window).width() <= 768) {
+            $(".navbar-toggle").trigger("click");
+          }
+         
+        });
+      });
+      </script>
+</body>
+</html>
